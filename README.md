@@ -1,3 +1,15 @@
+# Notes for development
+
+- `php artisan serve` - start a local host development server at http://127.0.0.1:8000
+- `php artisan make:model Models/{ModelName} -m` - create model and migration 
+- `php artisan migrate` - run database migrations
+- `php artisan make:seeder {ClassName}` - create database seeder
+- `php artisan db:seed` - run database seeders
+- `php artisan make:controller {ControllerName} --resource` - create controller
+
+
+
+------------
 <p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
 
 <p align="center">
