@@ -6,8 +6,19 @@
 - `php artisan make:seeder {ClassName}` - create database seeder
 - `php artisan db:seed` - run database seeders
 - `php artisan make:controller {ControllerName} --resource` - create controller
+-----------
+# Notes for Tutorial
 
+Create and secure a Laravel 6.0 CRUD application from scratch! Just to recap, here's what you just learned to do:
 
+- Setup your Laravel 6 development environment with Homestead
+- Create routes in Laravel 6
+- Create and seed a database with MySQL
+- Create controllers
+- Use Bootstrap and Blade to create views
+- Add authentication to a Laravel 6 application
+- Relate your Auth0 users to your own database
+- Restrict access to certain resources in a regular web application
 
 ------------
 <p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
