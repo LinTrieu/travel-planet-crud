@@ -7,7 +7,10 @@
 - `php artisan db:seed` - run database seeders
 - `php artisan make:controller {ControllerName} --resource` - create controller
 
-
+# Authentication
+- Laravel built-in Authentication: https://www.techiediaries.com/laravel/laravel-7-6-authentication-tutorial-login-register-password-reset-example/
+- `composer require laravel/ui`
+- `php artisan ui vue --auth`
 
 ------------
 <p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>

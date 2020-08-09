@@ -24,3 +24,7 @@ Route::group(['prefix' => 'dashboard'], function() {
     Route::get('reservations/create/{id}', 'ReservationController@create');
     Route::resource('reservations', 'ReservationController')->except('create');
 });
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
