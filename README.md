@@ -7,7 +7,11 @@
 - `php artisan db:seed` - run database seeders
 - `php artisan make:controller {ControllerName} --resource` - create controller
 
-# Notes for Tutorial
+Auth0
+- `composer require auth0/login:"~5.0"`
+- `php artisan vendor:publish`
+
+# Tutorial
 
 Create and secure a Laravel 6.0 CRUD application from scratch! Just to recap, here's what you just learned to do:
 
